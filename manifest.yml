@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/ReflectApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jazzbot-reflect-app-test
+  host: jazzbot-reflect-app-test
+  disk_quota: 1024M
+  buildpack: liberty-for-java
