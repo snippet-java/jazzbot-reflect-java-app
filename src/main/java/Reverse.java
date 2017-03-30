@@ -33,6 +33,6 @@ public class Reverse extends HttpServlet {
     }
 	 
 	private String process(String text) {
-		return "Hello " + new StringBuilder(text).reverse().toString();
+		return new StringBuilder(text).reverse().toString();
 	}
 }
